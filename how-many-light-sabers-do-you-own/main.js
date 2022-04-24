@@ -16,5 +16,5 @@
 
 function howManyLightsabersDoYouOwn(name, sabers = 0) {
   
-  return name === 'Zach' ? 18 : 0 ;
+  return name === 'Zach' || 'Dan Herz' ? 18 : 0 ;
 }
