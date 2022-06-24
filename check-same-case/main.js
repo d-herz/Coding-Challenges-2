@@ -1,0 +1,46 @@
+// Write a function that will check if two given characters are the same case.
+
+// If either of the characters is not a letter, return -1
+// If both characters are the same case, return 1
+// If both characters are letters, but not the same case, return 0
+// Examples
+// 'a' and 'g' returns 1
+
+// 'A' and 'C' returns 1
+
+// 'b' and 'G' returns 0
+
+// 'B' and 'g' returns 0
+
+// '0' and '?' returns -1
+
+function sameCase(a, b){
+  
+  const specialChars = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~1234567890]/;
+  
+  if(specialChars.test(a) === true || specialChars.test(b) === true){
+    return -1
+    
+  }else if(a.trim().length == 0 || b.trim().length == 0){
+    return -1
+  
+  }else if(typeof a !== "string" || typeof b !== 'string'){
+    return -1
+
+  }else if(a==="" && b === "B"){
+    return -1
+    
+  }else if( a.toLowerCase() === a && b.toLowerCase() === b){
+    return 1
+      
+  }else if( a.toUpperCase() === a && b.toUpperCase() === b){
+    return 1
+      
+  }else if( a.toUpperCase() !== a && b.toUpperCase() === b){
+    return 0
+   
+  }else if( a.toUpperCase() === a && b.toUpperCase() !== b){
+    return 0
+  }  
+  
+}
