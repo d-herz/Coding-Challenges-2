@@ -2,6 +2,15 @@
 
 // Return True if yes, False otherwise :)
 
+
+//7-22-22
+
+function hero(bullets, dragons){
+
+  return dragons* 2 <= bullets
+}
+
+
 //5-7-22 FTTTTT
 
 function hero(bullets, dragons){
