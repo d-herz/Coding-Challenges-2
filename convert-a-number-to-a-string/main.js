@@ -7,6 +7,13 @@
 // 999 --> "999"
 
 
+//8-24-22
+function numberToString(num) {
+  return num.toString()
+}
+
+//earlier
+
 function numberToString(num) {
   return num.toString()
 }
