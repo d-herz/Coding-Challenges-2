@@ -10,6 +10,11 @@ redid: 4-5-22, 4-20-22,
 </p> */
 
 
+//8-24-22
+function repeatStr (n, s) {
+  return s.repeat(n);
+}
+
 //7-12-22 Solution
 function repeatStr (n, s) {
   let str = ''
