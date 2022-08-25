@@ -7,6 +7,13 @@
 // name + " does not play banjo"
 // Names given are always valid strings.
 
+
+
+//8-25-22 
+function areYouPlayingBanjo(name) {
+  return name[0].toLowerCase() === 'r' ? `${name} plays banjo` : `${name} does not play banjo`
+}
+
 //7-10-22 redo
 function areYouPlayingBanjo(name) {
   let lc = name[0].toLowerCase()
@@ -19,7 +26,6 @@ function areYouPlayingBanjo(name) {
 }
 
 //4-22-22 Improved previous sols!
-
 function areYouPlayingBanjo(name) {
   return ( name.charAt(0).toLowerCase()=== 'r') ? `${name} plays banjo`: `${name} does not play banjo`;
  
