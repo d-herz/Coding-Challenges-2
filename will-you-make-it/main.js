@@ -4,6 +4,12 @@
 
 // Function should return true if it is possible and false if not.
 
+//8-26-22 getting wild don't even need a ternary
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  return mpg * fuelLeft >= distanceToPump 
+};
+
+
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   
   return distanceToPump/mpg > fuelLeft ? false : true
