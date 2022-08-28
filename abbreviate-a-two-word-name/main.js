@@ -9,6 +9,15 @@
 // patrick feeney => P.F
 
 
+//8-28-22 similar but different
+function abbrevName(name){
+  let fName = name.split(' ').shift().toUpperCase()
+  let lName = name.split(' ').pop().toUpperCase()
+
+  return `${fName[0]}.${lName[0]}`
+}
+
+
 //7-13-22 different this time
 function abbrevName(name){
   let arr = name.split(' ')
