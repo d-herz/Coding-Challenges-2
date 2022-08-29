@@ -9,6 +9,11 @@
   redid: 4-4-22, 4-20-22
 </p> */
 
+//8-29-22
+function makeNegative(num) {
+  return num < 0 ? num : -num
+}
+
 //7-12-22
 function makeNegative(num) {
   return num > 0 ? -num : num
