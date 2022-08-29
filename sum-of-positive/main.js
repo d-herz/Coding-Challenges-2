@@ -9,6 +9,14 @@
   Redid: 4-4-22, 4-20-22 
 </p> */
 
+//8-29-22 Back to better sol today
+
+function positiveSum(arr) {
+  let arrPos = arr.filter( x => x>0)
+  
+  return arrPos.reduce((acc,c) => acc+c,0 )
+}
+
 //7-12-22, same as first solution interestingly
 function positiveSum(arr) {
   let posSum = 0;
