@@ -3,6 +3,12 @@
 // Complete the solution so that it reverses the string passed into it.
 
 
+//9-1-22
+function solution(str){
+  return str.split('').reverse().join('')
+}
+
+
 //8-24-22
 function solution(str){
   return str.split('').reverse().join('')
