@@ -11,7 +11,7 @@ Array can contain numbers or strings. X can be either.
 Return true if the array contains the value, false if not.
 </p> */
 
-
+//9-1-22
 //8-24-22
 //7-18-22
 function check(a, x) {
