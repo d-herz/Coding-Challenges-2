@@ -6,6 +6,11 @@
 // 123 --> "123"
 // 999 --> "999"
 
+//9-1-22
+function numberToString(num) {
+  return num.toString()
+}
+
 
 //8-24-22
 function numberToString(num) {
