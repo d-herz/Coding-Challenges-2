@@ -11,8 +11,13 @@ redid 4/3/22 and pushed to GitHub
   4-19-22 again
 </p> */
 
-//8-24-22 almost got got
+//9-1-22
+function removeChar(str){
+  return str.slice(1,-1)
+};
 
+
+//8-24-22 almost got got
 function removeChar(str){
   return str.slice(1,-1)
 };
