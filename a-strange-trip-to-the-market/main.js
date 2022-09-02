@@ -9,8 +9,15 @@
 // Since Nessie is a master of disguise, the only way accurately tell is to look for the phrase "tree fiddy". Since you are tired of being grifted by this monster, the time has come to code a solution for finding The Loch Ness Monster. Note that the phrase can also be written as "3.50" or "three fifty".
 
 
-//5-11-22
 
+//9-2-22 had to peak at previous solution, tried to put multiple conditions inside the .includes(), passed the tests but not the attempt
+function isLockNessMonster(s) {
+  return s.includes('tree fiddy') || s.includes("$3.50")
+}
+
+
+
+//5-11-22
 function isLockNessMonster(s) {
   return s.includes('tree fiddy') || s.includes('$3.50') ? true : false;
 }
