@@ -11,7 +11,13 @@
 // Reference: https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/template_strings
 
 
+//9-2-22
+var TempleStrings = function(obj, feature) {
+  return `${obj} are ${feature}`
+}
 
+
+// 5-18-22
 var TempleStrings = function(obj, feature) {
   return `${obj} are ${feature}`
 }
