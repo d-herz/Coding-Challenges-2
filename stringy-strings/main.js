@@ -8,7 +8,22 @@
 
 // with size 12 should return : '101010101010'.
 
+//9-2-22, didn't use arrays this time
+function stringy(size) {
+  let str = ''
+  
+  for(let i = 0; i<size; i++){
+    if(i === 0 || i % 2 === 0 ){
+      str += '1'
+    }else{
+      str+='0'
+    }
+  }
+  return str 
+}
 
+
+//6-8-22
 function stringy(size) {
   let arr = []
   for(let i = 1; i<=size; i++){
