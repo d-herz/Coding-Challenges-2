@@ -9,6 +9,12 @@
   
 </p> */
 
+//9/7/22 forgot to preps
+
+function grow(x){
+  return x.reduce((acc,c) => acc*c)
+}
+
 //7-16-22
 //PREP
 //P: a array
