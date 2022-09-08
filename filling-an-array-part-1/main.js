@@ -14,6 +14,18 @@ arr(5) // => [0,1,2,3,4]
 Note: The parameter is optional. So you have to give it a default value.
 </p> */
 
+
+//9-8-22
+
+const arr = N => {
+  let arrFill = []
+  for (let i = 0; i< N; i++){
+    arrFill.push(i)
+  }
+  return arrFill
+};
+
+
 //7-16-22
 //PREP
 //P: a number
