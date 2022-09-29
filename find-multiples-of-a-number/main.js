@@ -4,6 +4,23 @@
 
 // If you can, try writing it in only one line of code.
 
+//9-29-22
+
+function findMultiples(int, limit) {
+  let arr = []
+  
+  for( let i = int; i<=limit; i+=int){
+    arr.push(i)
+  }
+  return arr
+}
+
+
+
+
+
+
+ //6-4-22
 //PREP
 //P: 2 numbers
 //R: return an array of multiples
