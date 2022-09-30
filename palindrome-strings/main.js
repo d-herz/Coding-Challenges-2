@@ -18,3 +18,24 @@ function isPalindrome(line) {
   return str.split('').reverse().join('') === str ? true : false;
   
 }
+
+
+//9/30/22
+
+//PREP
+//P: a string or a number (which should be converted to a string)
+//R: A boolean, true or false
+//E: isPalindrom("anna") === true
+/*P: psuedocode: 
+function isPalindrome(line){
+  reverse string (ensure a string) and check if === to original param
+} */
+
+function isPalindrome(line) {
+  
+  let str = line.toString().split('').reverse().join('')
+
+  console.log(str)
+  
+  return str == line ? true : false
+}
