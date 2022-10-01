@@ -18,6 +18,34 @@
 // The middle character(s) of the word represented as a string.
 
 
+
+//10-1-22
+
+//PREP
+//P: string
+//R: string, middle letter if odd length, middle 2 letters if even
+//E: getMiddle('bird') === 'ir'
+/*P: getMiddle(s){
+  Check string lenght, then conditional
+}
+*/
+
+function getMiddle(s){
+  let len = s.length
+  console.log(s)
+  console.log(len)
+  
+  if (len % 2 === 0){
+    return s.charAt((len/2)-1)+s.charAt(len/2)
+    
+  }else{
+    return s.charAt(Math.floor(len/2))
+  }
+
+}
+
+//6-11-22
+
 //PREP
 //P: a one word string
 //R: middle character if odd lenght, 2 middle characters if even length
