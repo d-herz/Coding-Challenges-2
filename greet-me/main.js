@@ -21,7 +21,9 @@ toUpperCase first letter, return template literal
 
 var greet = function(name) {
   
-  let nameProp = name[0].toUpperCase() + name.slice(1)
+  let uniName = name.toLowerCase()
+  
+  let nameProp = uniName[0].toUpperCase() + uniName.slice(1)
 
   return `Hello ${nameProp}!`
   
