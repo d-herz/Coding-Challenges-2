@@ -26,5 +26,6 @@ function solution(str, ending){
   let newStr = str.slice(sliceAmt) === ending ? true : false
   console.log(newStr)
   return newStr
-
 }
+
+//should have used the .endsWith() method 
