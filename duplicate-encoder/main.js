@@ -36,7 +36,6 @@ function duplicateEncode(word){
       retStr+= ')'
     }
   }
-
   console.log(retStr)
   return retStr
 }
