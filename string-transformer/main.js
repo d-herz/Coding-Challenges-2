@@ -32,6 +32,6 @@ function stringTransformer(str) {
       }
     }
   }
-  return newArr.join('').replace('-', ' ')
+  
+  return newArr.map( x => x === '-' ? ' ' : x).join('')
 }
-
