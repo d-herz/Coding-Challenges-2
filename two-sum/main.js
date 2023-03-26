@@ -41,7 +41,7 @@ var twoSum = function (numsArr, target) {
   let pairs = []
 
   for (const num of numsArr) {
-    num2 = target - num
+    const num2 = target - num
     if (numMap[num2]) {
       pairs.push(num, num2)  
     } else {
@@ -49,7 +49,7 @@ var twoSum = function (numsArr, target) {
     }
   }
   if (pairs.length = 2) {
-    console.log(pairs)
+    // console.log(pairs)
     return [numsArr.indexOf(pairs[0]), numsArr.lastIndexOf(pairs[1])]
   }
 };
