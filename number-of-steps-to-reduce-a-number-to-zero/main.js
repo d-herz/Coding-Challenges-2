@@ -49,7 +49,7 @@ var numberOfSteps = function(num) {
           inc += 1
       } else {
         num -= 1
-          inc +=1
+        inc +=1
       }
   }
   return inc
